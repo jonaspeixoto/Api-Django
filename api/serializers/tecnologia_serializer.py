@@ -5,5 +5,5 @@ from ..models import Tecnologia
 class TecnologiaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tecnologia
-        field = ('nome',)
-
+        fields = ('nome',)
+        #fields = '__all__'

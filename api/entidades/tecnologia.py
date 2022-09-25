@@ -1,8 +1,6 @@
-class Tecnologia():
-    def __init__(self):
-        self.__nome = None
+class Tecnologia:
 
-    def __int__(self, nome):
+    def __init__(self, nome):
         self.__nome = nome
 
     @property
